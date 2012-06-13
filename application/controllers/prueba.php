@@ -13,11 +13,11 @@ class Prueba extends CI_Controller {
 	
 	
 	$this->load->helper('url');
-	
+	$data['title'] = 'Prueba flickr';
 	
 	$this->load->view('Template/Cabezera', $data);
-	$this->load->view('Flickr/'.$page, $data);
-	$this->load->view('Template/Pie', $data);
+	$this->load->view('Flickr/'.$page);
+	$this->load->view('Template/Pie');
 
 	}
 }

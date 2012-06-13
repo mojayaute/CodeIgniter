@@ -6,7 +6,7 @@
 
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>css/all.css" media="screen" />
 
-<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript" src="<?=base_url()?>js/jquery.cycle.all.latest.js"></script>
 <script src="<?=base_url()?>js/flickr.js"></script>
 <script src="<?=base_url()?>js/jquery-1.7.2.min.js"></script>
 <script src="<?=base_url()?>js/lightbox.js"></script>
